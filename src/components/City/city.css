@@ -1,0 +1,188 @@
+.city {
+  padding-bottom: 80px;
+}
+
+.city__title {
+  margin-bottom: 48px;
+  color: rgb(20, 20, 20);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.city__titlebold {
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.city__wrapper {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.city__prevbutton {
+  position: absolute;
+  top: calc(50% - 21px);
+  left: -64px;
+}
+.city__nextbutton {
+  position: absolute;
+  top: calc(50% - 21px);
+  right: -64px;
+}
+.swiper-custom-citypagination {
+  display: flex;
+  justify-content: center;
+}
+
+.citycard__carusel__wrapper {
+  width: 100%;
+  height: 234px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.citycard__carusel__wrapper {
+  width: 100%;
+  height: 234px;
+  position: relative;
+}
+.citycard__carusel {
+  width: 100%;
+  height: 100%;
+}
+.citycard__prevbutton {
+  position: absolute;
+  top: calc(50% - 6px);
+  cursor: pointer;
+  left: 2px;
+  z-index: 9999;
+}
+.citycard__nextbutton {
+  position: absolute;
+  cursor: pointer;
+  top: calc(50% - 6px);
+  right: 2px;
+  z-index: 999;
+}
+.citycard__caruselimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.citycard__carusel-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.swiper-custom-citycardpagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.citycard__name {
+  color: rgb(20, 20, 20);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.citycard__about {
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.citycard__price {
+  color: rgb(20, 20, 20);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.citycard__currency {
+  color: rgb(20, 20, 20);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+@media only screen and (max-width: 1470px) {
+  .city__prevbutton {
+    left: -56px;
+  }
+  .city__nextbutton {
+    right: -56px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .city__nextbutton,
+  .city__prevbutton {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .city {
+    padding-bottom: 64px;
+  }
+  .city__title {
+    font-size: 26px;
+    margin-bottom: 32px;
+  }
+  .city__wrapper {
+    margin-bottom: 32px;
+  }
+  .citycard__carusel__wrapper {
+    border-radius: 8px;
+    height: 192px;
+    margin-bottom: 24px;
+  }
+  .citycard__name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .citycard__about {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .citycard__price {
+    font-size: 18px;
+  }
+  .citycard__currency {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .city {
+    padding-bottom: 40px;
+  }
+  .city__title {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .citycard__carusel__wrapper {
+    margin-bottom: 6px;
+    height: 192px;
+  }
+  .citycard__name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+}

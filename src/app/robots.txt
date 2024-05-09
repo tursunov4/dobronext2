@@ -1,0 +1,7 @@
+User-agent: Yandex
+Allow: /$
+Disallow: /*?
+User-agent: *
+Crawl-delay: 1
+Host: dobroseptik.ru
+Sitemap: https://dobroseptik.ru/sitemap.xml

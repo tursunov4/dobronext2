@@ -1,0 +1,35 @@
+.usercarusel__wrapper {
+  position: relative;
+  margin-bottom: 24px;
+}
+.swiper-custom-userpagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__prevbutton {
+  position: absolute;
+  left: -64px;
+  top: calc(50% - 21px);
+}
+
+.user__nextbutton {
+  position: absolute;
+  right: -64px;
+  top: calc(50% - 21px);
+}
+@media only screen and (max-width: 1470px) {
+  .user__prevbutton {
+    left: -56px;
+  }
+  .user__nextbutton {
+    right: -56px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .user__prevbutton,
+  .user__nextbutton {
+    display: none;
+  }
+}

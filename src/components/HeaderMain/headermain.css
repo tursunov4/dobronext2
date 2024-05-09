@@ -1,0 +1,120 @@
+.header__main-seciton {
+  padding-top: 87px;
+  padding-bottom: 209px;
+  background-image: url("../../assets/Images/webg/leaf1.webp"),
+    url("../../assets/Images/webg/leaf2.webp"),
+    url("../../assets/Images/webg/leaf3.webp");
+  background-repeat: no-repeat;
+  background-position-x: calc(50% - 790px), calc(50% - 670px), calc(50% + 140px);
+  background-position-y: calc(50% - 220px), calc(50% + 210px), calc(50% - 250px);
+}
+.header__mian-seciton__wrapper {
+  max-width: 611px;
+}
+.headermain__title {
+  color: rgb(26, 27, 28);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.headermain__titlebold {
+  font-weight: 700;
+}
+.headermain__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: linear-gradient(
+    -40.76deg,
+    rgb(13, 142, 0) -0.539%,
+    rgb(23, 189, 6) 100.539%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 230px;
+  height: 56px;
+}
+@media only screen and (max-width: 1300px) {
+  .header__main-seciton {
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .header__main-seciton {
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .header__main-seciton {
+    padding-top: 20pxpx;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .header__main-seciton {
+    padding-bottom: 281px;
+  }
+  .header__main-seciton {
+    padding-top: 8px;
+  }
+  .header__mian-seciton__wrapper {
+    max-width: 511px;
+  }
+  .headermain__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+  .headermain__btn {
+    width: 209px;
+    height: 53px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header__main-seciton {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .header__main-seciton {
+    padding-bottom: 353px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header__mian-seciton__wrapper {
+    max-width: 511px;
+  }
+  .headermain__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .headermain__btn {
+    width: 209px;
+    height: 53px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .header__main-seciton {
+    padding-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .headermain__btn {
+    width: 100%;
+  }
+}

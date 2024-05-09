@@ -1,0 +1,246 @@
+.znaym {
+  padding-bottom: 80px;
+}
+.znaym__wrapper {
+  position: relative;
+  padding: 6px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  background-image: url("../../assets/Images/webg/znaymuyback.webp"),
+    url("../../assets/Images/webg/znaymconner.webp"),
+    url("../../assets/Images/webg/znaymbarg.webp");
+  background-repeat: no-repeat;
+  background-position-x: right, left, calc(50% - 21px);
+  background-position-y: bottom, bottom, calc(50% - 100px);
+}
+
+.znaym__box {
+  padding: 58px;
+  border: 1px solid rgb(223, 230, 240);
+  border-radius: 6px;
+}
+
+.znaym__box-item {
+  max-width: 506px;
+}
+
+.znaym__box-title {
+  color: rgb(20, 20, 20);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.znaym__box-title__bold {
+  font-weight: 700;
+}
+
+.znaym__box__doc {
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.znaym__box__bottom {
+  max-width: 490px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.znaym__box__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: linear-gradient(
+    -40.76deg,
+    rgb(13, 142, 0) -0.987%,
+    rgb(23, 189, 6) 100.987%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  width: 165px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.znaym__box__bottom__text {
+  color: rgb(112, 125, 137);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 165px;
+}
+.znaym__box__bottom__list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.znaym__backbox__img {
+  height: 100%;
+}
+.znaym__treeback {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.znaym__uskuna {
+  position: absolute;
+  right: 225px;
+  bottom: -6px;
+  width: 368px;
+}
+.znaym__uskuna__img {
+  width: 100%;
+  height: auto;
+}
+.znaym__planuskuna,
+.znaym__plantree {
+  display: none;
+}
+.znaym__mobiletree {
+  display: none;
+}
+.znaym__box__innerbottom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media only screen and (max-width: 1265px) {
+  .znaym__uskuna {
+    right: 150px;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .znaym__planuskuna {
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    right: 125px;
+  }
+  .znaym__box {
+    padding: 42px;
+  }
+  .znaym__wrapper {
+    background-image: url("../../assets/Images/webg/znaymplanhome.webp"),
+      url("../../assets/Images/webg/znaymconner.webp") !important;
+    background-size: auto 100%, auto auto;
+  }
+  .znaym__treeback {
+    display: none;
+  }
+  .znaym__uskuna {
+    display: none;
+  }
+  .znaym__box__bottom,
+  .znaym__box__innerbottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .znaym__box-title {
+    font-size: 26px;
+    max-width: 391px;
+    margin-bottom: 16px;
+  }
+  .znaym__box-item {
+    max-width: 466px;
+  }
+  .znaym__box__doc {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .znaym__plantree {
+    display: block;
+    position: absolute;
+    top: 54px;
+    right: -16px;
+  }
+  .znaym__box__btn {
+    width: 152px;
+    height: 53px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .znaym {
+    padding-bottom: 64px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .znaym__box-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .znaym__box__doc {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .znaym__box {
+    padding: 18px;
+    padding-bottom: 217px;
+  }
+  .znaym__plantree {
+    display: none;
+  }
+  .znaym__mobiletree {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .znaym__mobiletree > img {
+    width: auto;
+  }
+  .znaym__wrapper {
+    background-image: url("../../assets/Images/webg/znaymmobileback.webp"),
+      url("../../assets/Images/webg/znaymconner.webp"),
+      url("../../assets/Images/webg/znaymbarg.webp") !important ;
+    background-position-x: right, left, calc(50% - 118px);
+    background-position-y: bottom, bottom, calc(50% + 77px);
+    background-size: 200px, 133px, 46px 45px;
+  }
+  .znaym__box-item,
+  .znaym__box-title,
+  .znaym__box__doc {
+    max-width: 100%;
+  }
+  .znaym__planuskuna {
+    width: 204px;
+    right: calc(50% - 102px);
+  }
+  .znaym__planuskuna__img {
+    width: 204px;
+  }
+
+  .znaym__box__innerbottom {
+    flex-direction: initial;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .znaym {
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .znaym__box__btn {
+    width: 100%;
+  }
+}

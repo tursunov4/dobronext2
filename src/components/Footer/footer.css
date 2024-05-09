@@ -1,0 +1,124 @@
+.footer {
+  position: relative;
+}
+.footer__bacimg {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 50px);
+}
+.footer__mainwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+
+.footer__navlist {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.footer__navlist__item {
+  cursor: pointer;
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer__bottom {
+  border-top: 1px solid rgb(223, 230, 240);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.footer__bottom__doc,
+.footer__bottom__politika {
+  color: rgb(112, 125, 137);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1139px) {
+  .footer__bacimg {
+    display: none;
+  }
+  .footer__navlist {
+    gap: 32px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .footer {
+    background: none;
+  }
+  .footer__navlist__item {
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .footer__logo__img {
+    width: 220px;
+  }
+  .footer__mainwrapper {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 741px) {
+  .footer__navlist {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .footer__navlist {
+    gap: 20px;
+  }
+  .footer__mainwrapper {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .footer {
+    background-image: url("../../assets/Images/webg/footermobiletree.webp");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  .footer__mainwrapper {
+    padding: 24px 0;
+  }
+  .footer__navlist {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .footer__bottom {
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .footer__navlist__item {
+    width: calc(50% - 8px);
+  }
+}

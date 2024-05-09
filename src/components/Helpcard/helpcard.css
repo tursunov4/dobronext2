@@ -1,0 +1,108 @@
+.helpcard {
+  position: relative;
+  width: 382px;
+  border-radius: 8px;
+  background: rgb(232, 236, 240);
+  padding: 32px;
+}
+.helpcard__prestimg {
+  position: absolute;
+  top: -24px;
+  right: 24px;
+}
+.helpcard__personbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 20px;
+}
+
+.helpcard__presonimg {
+  width: 128px !important;
+
+  border-radius: 8px;
+}
+
+.helpcard__person__name {
+  color: rgb(20, 20, 20);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.helpcard__person__position {
+  color: rgb(112, 125, 137);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.helpcard__doc {
+  margin-bottom: 38px;
+  color: rgb(20, 20, 20);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.helpcard__bottom__title {
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+
+  text-align: left;
+}
+.helpcard__bottom__titlebold {
+  font-weight: 700;
+}
+.helpcard__bottom__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.helpcard__bottom__list-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(
+      45deg,
+      rgba(20, 20, 20, 0.6) 0%,
+      rgba(20, 20, 20, 0.6) 100%
+    ),
+    url("../../assets/Images/png/helpcardbac1.png");
+  gap: 20px;
+  padding: 12px 24px;
+}
+.helpcard__bottom__list-item2 {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(
+      45deg,
+      rgba(20, 20, 20, 0.6) 0%,
+      rgba(20, 20, 20, 0.6) 100%
+    ),
+    url("../../assets/Images/png/helpcardbac2.png");
+  gap: 20px;
+  padding: 12px 24px;
+}
+.helpcard__bottom__listitem__text {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.helpcard__bottom__listitem__textbold {
+  font-weight: 700;
+}

@@ -1,0 +1,275 @@
+.apptime {
+  padding-bottom: 80px;
+}
+.apptime__wrapper {
+  overflow: hidden;
+  position: relative;
+  background-image: url("../../assets/Images/webg/biocapsul.webp");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+.apptime__box {
+  border: 1px solid rgb(223, 230, 240);
+  border-radius: 6px;
+  padding: 58px;
+}
+.apptime__text__wrapper {
+  max-width: 601px;
+}
+
+.apptime__title {
+  color: rgb(20, 20, 20);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.apptime__titlebold {
+  font-weight: 700;
+}
+.apptime__doc {
+  max-width: 512px;
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.apptime__time__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 8px;
+}
+
+.apptime__time__box {
+  color: rgb(20, 20, 20);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.apptime__timebox__time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: rgb(232, 236, 240);
+  width: 85px;
+  height: 68px;
+  padding: 10px 14px;
+}
+
+.apptime__time__btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.apptime__callbtn {
+  width: 203px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: linear-gradient(
+    -40.76deg,
+    rgb(13, 142, 0) -0.68%,
+    rgb(23, 189, 6) 100.68%
+  );
+}
+
+.appitime__catalog__btn {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: linear-gradient(
+    -40.76deg,
+    rgb(34, 102, 255) -0.539%,
+    rgb(34, 162, 255) 100.539%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 230px;
+  height: 56px;
+}
+.apptime__righback {
+  position: absolute;
+  right: 0px;
+  bottom: -6px;
+}
+.apptime__leftback {
+  position: absolute;
+  left: 0px;
+  top: 19px;
+}
+.apptime__plancapimg {
+  display: none;
+}
+.apptime__mobileimgbio,
+.apptime__mobiletree {
+  display: none;
+}
+@media only screen and (max-width: 1250px) {
+  .apptime__plancapimg {
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+  }
+  .apptime__righback {
+    display: none;
+  }
+  .apptime__wrapper {
+    background-image: url("../../assets/Images/webg/apptimeplanbacktree.webp");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .apptime__text__wrapper {
+    max-width: 391px;
+  }
+  .apptime__title {
+    color: rgb(20, 20, 20);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .apptime__doc {
+    color: rgb(20, 20, 20);
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .apptime__time__box {
+    gap: 8px;
+    color: rgb(20, 20, 20);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .apptime__callbtn {
+    font-size: 14px;
+    width: 185px;
+    height: 53px;
+  }
+  .appitime__catalog__btn {
+    font-size: 14px;
+    width: 209px;
+    height: 53px;
+  }
+  .apptime__timebox__time {
+    width: 65px;
+    height: 51px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .apptime__box {
+    padding: 42px;
+  }
+  .apptime {
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .apptime__box {
+    padding: 18px;
+  }
+}
+
+@media only screen and (max-width: 707px) {
+  .apptime__righback,
+  .apptime__leftback,
+  .apptime__plancapimg {
+    display: none;
+  }
+  .apptime__mobileimgbio {
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: calc(50% - 164px);
+  }
+  .apptime__mobiletree {
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    z-index: 2;
+  }
+  .apptime__box {
+    padding-bottom: 180px;
+  }
+  .apptime__wrapper {
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .apptime {
+    padding-bottom: 40px;
+  }
+  .apptime__title {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .apptime__box {
+    padding: 18px;
+    padding-bottom: 180px;
+  }
+  .apptime__doc {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .apptime__descbr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .apptime__time__btns {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .apptime__callbtn,
+  .appitime__catalog__btn {
+    width: 100%;
+    height: 53px;
+    font-size: 14px;
+  }
+}
